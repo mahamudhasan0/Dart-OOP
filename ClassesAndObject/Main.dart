@@ -1,4 +1,5 @@
 import 'Camera.dart';
+import 'Interest.dart';
 void main(){
   Camera camera = Camera();
   camera.id = 1;
@@ -18,5 +19,13 @@ void main(){
   if(cameraTwo.isPriceHigh()){
     print("Price is High ${cameraTwo.name}");
   }
+
+  //Interest Calculation
+  Interest interest = Interest();
+  interest.principle = 7000;
+  interest.rate = 4;
+  interest.time = 2;
+  double simpleInterest = interest.calculate();
+  print('The Simple Interest is $simpleInterest');
 
 }
