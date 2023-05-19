@@ -1,6 +1,5 @@
 class Person {
   //properties
-
   int? id;
   String? name;
   int? age;
@@ -14,8 +13,8 @@ class Person {
     print("Address is $address");
   }
 }
-//Main Function
 
+//Main Function
 void main(){
   Person person = Person();
   person.id = 1;
