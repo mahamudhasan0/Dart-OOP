@@ -16,7 +16,7 @@ class Person {
 
 //Main Function
 void main(){
-  Person person = Person();
+  Person person = Person();//object
   person.id = 1;
   person.name = "Mahamud Hasan";
   person.age = 24;
